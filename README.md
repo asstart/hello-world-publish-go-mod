@@ -36,11 +36,13 @@ git push origin v1.0.0
 #### 1. Download and build
 
 ```bash
-go install github.com/asstart/hello-world-publish-go-mod@1.0.0
+go install github.com/asstart/hello-world-publish-go-mod@v1.0.0
 ```
 
 #### 2. Run
 
 ```bash
 $GOPATH/bin/hello-world-publish-go-mod
+# OR $GOBIN/hello-world-publish-go-mod
+# OR ~/go/bin/hello-world-publish-go-mod
 ```
